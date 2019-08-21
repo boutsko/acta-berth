@@ -1,0 +1,29 @@
+digest                                   : cpc
+name_ru                                  :
+flag_ru                                  :
+last_port                                :
+last_departure_date                      :
+arrival_ts                               :
+departure_ts                             :
+#----------------------------------------------------------------------
+_rgt                                     :
+_reduced_gt                              :
+#----------------------------------------------------------------------
+_draft_arrival_fore                      :  FORE : 6.0 / AFT : 8.2 MTRS 
+_draft_arrival_aft                       :  FORE : 6.0 / AFT : 8.2 MTRS 
+_dwt                                     :  103231.6 MT 
+_draft_departure                         :  14.0 MTRS BWEK 
+_ballast                                 : 31950 MT/33% 
+_last_departure_date                     : 03.06.2016 - PM 
+_bunkers_departure_last                  : REVERTING 
+_bunkers_on_arrival                      : REVERTING 
+_bunkers_on_departure                    : REVERTING INFORMATION FOR ISPS DEPARTMENT ------- 
+_imo                                     : 03/06/2016 - 28/07/2021 
+_call_sign                               : 03/06/2016 - 28/07/2021 
+_draft_arrival_fore                      :  MIDIA ROMANIA 
+_draft_arrival_aft                       :  MIDIA ROMANIA 
+_dwt                                     :  1 
+_draft_departure                         : NO 
+_ballast                                 :  IN BALLAST CONDITION 
+_issc_issued                             :
+_issc_valid                              :

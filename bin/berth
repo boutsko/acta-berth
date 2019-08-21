@@ -1,0 +1,21 @@
+#!/Users/sampai/.rbenv/versions/2.2.1/bin/ruby
+
+require 'berth'
+
+if ARGV[0] =~ /^-?[sif]/
+  berth = ARGV[0]
+  word  = ARGV[1]
+  name  = ARGV[2]
+
+b = Order.new(berth, word, name)
+
+elsif ARGV[0] =~ /^-?h/
+  puts "help berth[Shs\|Ipp], operation[Arr,Nor,Rate,changeQuanity] dtime[01031800] or Quantity[33000] vessel'sName[aegeanAngel]"
+  exit
+else
+  puts "first parameter i26go - f.e. IPP 26 gasoil. second parameter - action letter with date/time. third optional vessel\'s name"
+  puts "berth[Shs\|Ipp], operation[Arr,Nor,Rate,changeQuanity] dtime[01031800] or Quantity[33000] vessel'sName[aegeanAngel]"
+  puts "m for mooring and l for pilot l (mnemo lotsman)"
+  puts "30121800:31122100m1 - arrival 30/12/18:00, pilot 21/12/21:00, mooring, 1 day in port"
+  exit
+end

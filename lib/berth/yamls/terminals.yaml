@@ -1,0 +1,79 @@
+:s:
+  :manager: "Жевец М.Г."
+  :where: "Нефтерайон Шесхарис"
+  :fax: "602062"
+
+  :b6:
+    :f:
+      :grade: "мазута"
+      :quantity: "30,000"
+      :rate: "2,000"
+      :manifold_number: "2"
+      :rate_per_manifold: "1,000"
+
+    :g:
+      :grade: "диз.топливa"
+      :quantity: "30,000"
+      :rate: "2,000"
+      :manifold_number: "2"
+      :rate_per_manifold: "1,000"
+
+  :b2:
+    :c:
+      :grade: "сырой нефти"
+      :quantity: "80,000"
+      :rate: "6,000"
+      :manifold_number: "3"
+      :rate_per_manifold: "2,000"
+  :b1:
+    :c:
+      :grade: "сырой нефти"
+      :quantity: "140,000"
+      :rate: "9,000"
+      :manifold_number: "3"
+      :rate_per_manifold: "3,000"
+  :b1a:
+    :c:
+      :grade: "сырой нефти"
+      :quantity: "80,000"
+      :rate: "9,000"
+      :manifold_number: "3"
+      :rate_per_manifold: "3,000"
+
+:i:
+  :manager: "Лесняку А.Е."
+  :where: "Комбинат Импортпищепром"
+  :fax: "760138"
+
+  :b26:
+    :f:
+      :grade: "мазута"
+      :quantity: "30,000"
+      :rate: "2,000"
+      :manifold_number: "2"
+      :rate_per_manifold: "1,000"
+    :g:
+      :grade: "диз.топлива"
+      :quantity: "30,000"
+      :rate: "2,000"
+      :manifold_number: "2"
+      :rate_per_manifold: "1,000"
+
+:f:
+  :manager: "Анженко А.А."
+  :where: "Новороссийский Мазутный Терминал"
+  :fax: "303143"
+
+  :b25:
+    :f:
+      :grade: "мазута"
+      :quantity: "30,000"
+      :rate: "2,000"
+      :manifold_number: "2"
+      :rate_per_manifold: "1,000"
+    :g:
+      :grade: "диз.топлива"
+      :quantity: "30,000"
+      :rate: "2,000"
+      :manifold_number: "2"
+      :rate_per_manifold: "1,000"

@@ -1,0 +1,2 @@
+all:
+	ruby foo.rb

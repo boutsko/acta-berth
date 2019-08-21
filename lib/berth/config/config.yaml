@@ -1,0 +1,11 @@
+# First I put my config.yml file within the /config/ directory within my #  Rails application. It looks something like this:
+
+:development: &development_settings
+  :agency:
+    :name: "Almar Services"
+    :phone: "699842"
+    :fax: "719755"	
+    :email: "operations@almarservices.com"
+
+:production:
+  <<: *development_settings

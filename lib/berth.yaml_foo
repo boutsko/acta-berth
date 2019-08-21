@@ -1,0 +1,56 @@
+--- !ruby/object:Berth
+shs_boss: &shs_boss
+  name: "sheskharis"
+  boss: "Жевец Михаилу Георгиевичу"
+  where: "Нефтерайон Шесхарис"
+  fax: "602062"
+
+id: 0
+  <<: *shs_boss
+# name: "sheskharis"
+# boss: "Жевец Михаилу Георгиевичу"
+# where: "Нефтерайон Шесхарис"
+# fax: "602062"
+fo:
+  cargo_grade: "мазута" 
+  cargo_quantity: "30,000"
+  loading_rate: "2,000"
+  manifold_number: "2"
+  rate_per_manifold: "1,000"
+go:
+  cargo_grade: "диз.топливa" 
+  cargo_quantity: "30,000"
+  loading_rate: "2,000"
+  manifold_number: "2"
+  rate_per_manifold: "1,000"
+co:
+  cargo_grade: "сырой нефти" 
+  berth2:
+    cargo_quantity: "80,000"
+    loading_rate: "6,000"
+    manifold_number: "3"
+    rate_per_manifold: "2,000"
+  berth1:
+    cargo_quantity: "140,000"
+    loading_rate: "10,000"
+    manifold_number: "3"
+    rate_per_manifold: "3,500"
+
+--- !ruby/object:Berth
+id: 1
+name: "ipp"
+boss: "Лесняку А.Е."  
+where: "Комбинат Импортпищепром"
+fax: "760138"                    
+fo:
+  cargo_grade: "мазута" 
+  cargo_quantity: "30,000"
+  loading_rate: "2,000"
+  manifold_number: "2"
+  rate_per_manifold: "1,000"    
+go:
+  cargo_grade: "диз.топлива" 
+  cargo_quantity: "30,000"
+  loading_rate: "2,000"
+  manifold_number: "2"
+  rate_per_manifold: "1,000"

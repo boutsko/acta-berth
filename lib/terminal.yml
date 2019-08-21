@@ -1,0 +1,58 @@
+--- !ruby/object:Berth
+sheskhairs:
+  boss: "Жевец Михаилу Георгиевичу"
+  where: "Нефтерайон Шесхарис"
+  fax: "602062"
+  #     if (grade =~ /^f/ )
+  fo:
+    cargo_grade: "мазута" 
+    cargo_quantity= "30,000"
+    loading_rate: "2,000"
+    manifold_number: "2"
+    rate_per_manifold: "1,000"
+
+# elsif (grade =~ /^g/ )
+  go:
+    cargo_grade: "диз.топливa" 
+    cargo_quantity= "30,000"
+    loading_rate: "2,000"
+    manifold_number: "2"
+    rate_per_manifold: "1,000"
+
+# else
+  co:
+    cargo_grade: "сырой нефти" 
+# if ( berth =~ /^2$/ )
+    berth2:
+      cargo_quantity= "80,000"
+      loading_rate: "6,000"
+      manifold_number: "3"
+      rate_per_manifold: "2,000"
+
+# elsif ( berth =~ /^1$/ )
+    berth1:
+      cargo_quantity= "140,000"
+      loading_rate: "10,000"
+      manifold_number: "3"
+      rate_per_manifold: "3,500"
+      
+      if (term =~ /^i/)
+ipp:
+  boss: "Лесняку А.Е."  
+  where: "Комбинат Импортпищепром"
+  fax: "760138"                    
+        
+#        if (grade =~ /^f/ )
+  fo:
+    cargo_grade: "мазута" 
+    cargo_quantity= "30,000"
+    loading_rate: "2,000"
+    manifold_number: "2"
+    rate_per_manifold: "1,000"    
+# else
+  go:
+    cargo_grade: "диз.топлива" 
+    cargo_quantity= "30,000"
+    loading_rate: "2,000"
+    manifold_number: "2"
+    rate_per_manifold: "1,000"

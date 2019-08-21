@@ -1,0 +1,24 @@
+
+* issue with rake results in parsing and appearing new .quest.yml
+
+* location issue in lib/berth/parser:55
+it is not "cpc" or "taman" but a string containing path "spec/bin/parse_cpc_spec.rb"
+need to change it to f.e "cpc" to run tests and back? for gem to work
+
+    def quest_hash_pairs
+      p location
+      YAML::load_file("#{lib_dir}/yamls/#{location}.yml").to_hash
+     YAML::load_file("#{lib_dir}/yamls/cpc.yml").to_hash
+    end
+
+* create Berth class as in Ruby/pda
+* add Watir based functionality to berth
+    include new parce.rb from watir 
+    add rmp.rb and portcall.rb
+    refactor rmp.rb and portcall.rb
+
+* add pre-arrival sending via mailer
+
+* add da calculation
+
+* add compay name and agent name as well as logo via globals
